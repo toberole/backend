@@ -13,6 +13,6 @@ public class UserServiceImpl implements UserService {
     @Override
     public void save() {
         System.out.println("UserServiceImpl save ......");
-        userDao.save();
+        userDao.save(1, "hello");
     }
 }
