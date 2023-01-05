@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!-- name 取别名，可以用空格取多个名称   -->
+    <!--
+        注意spring默认创建的对象是单例
+        scope="prototype" 非单例
+    -->
+    <bean class="com.zw.dao.impl.BookDaoImpl" id="bookDao"
+          name="bookDao2 bookDao3"
+          scope="prototype"/>
+
+    <bean class="com.zw.service.BookServiceImpl" id="bookService">
+        <!-- 配置类中的 类成员变量 -->
+        <property name="bookDaoImpl" ref="bookDao"/>
+    </bean>
+</beans>
