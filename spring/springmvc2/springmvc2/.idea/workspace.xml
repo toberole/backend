@@ -5,29 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1fc6115-c6fe-44fb-b707-121ba0156649" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zw/config/JdbcConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zw/config/SpringConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zw/config/SpringConfig1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zw/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zw/dao/impl/UserDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zw/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zw/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/jdbc1.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springmvc3/springmvc3/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springmvc3/springmvc3/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springmvc3/springmvc3/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springmvc3/springmvc3/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springmvc3/springmvc3/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springmvc3/springmvc3/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springmvc3/springmvc3/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springmvc3/springmvc3/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springmvc3/springmvc3/src/main/java/com/zw/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zw/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zw/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../javaweb/javaweb1/javaweb/src/main/java/com/zw/javaweb/DBTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../javaweb/javaweb1/javaweb/src/main/java/com/zw/javaweb/Listener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../javaweb/javaweb1/javaweb/src/main/java/com/zw/javaweb/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../javaweb/javaweb1/javaweb/src/main/java/com/zw/javaweb/HelloServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springmvc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../springmvc/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,11 +50,12 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/code/backend/spring/springmvc2/springmvc2/src/main/resources",
+    "last_opened_file_path": "D:/code/backend/spring/springmvc3/springmvc3",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "spring.configuration.checksum": "62aad15d48d1b4b4fbd4aa22d77f0790",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -111,6 +93,7 @@
       <option name="presentableId" value="Default" />
       <updated>1672902820858</updated>
       <workItem from="1672902822090" duration="8002000" />
+      <workItem from="1673365952250" duration="354000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!-- name 取别名，可以用空格取多个名称   -->
+    <!--
+        注意spring默认创建的对象是单例
+        scope="prototype" 非单例,使用 prototype 时 Spring 不会负责销毁容器对象
+    -->
+    <bean class="com.zw.dao.impl.BookDaoImpl" id="bookDao"
+          scope="prototype"
+          init-method="init"
+          destroy-method="destroy"/>
+
+    <!--    构造方法创建实例-->
+    <bean class="com.zw.service.impl.BookServiceImpl" id="bookService">
+        <!-- 配置类中的 类成员变量 -->
+        <property name="bookDaoImpl" ref="bookDao"/>
+    </bean>
+
+    <!--    静态工厂方法创建-->
+    <bean class="com.zw.factory.OrderDaoFactory" id="orderDao"
+          factory-method="getOrderDao"/>
+
+    <!--     使用实例工厂方法创建-->
+<!--    <bean class="com.zw.factory.UserDaoFactory" id="userDaoFactory"/>-->
+<!--    <bean factory-bean="userDaoFactory" factory-method="getUserDao" id="userDao"/>-->
+    <!--    使用facetorybean -->
+<!--    <bean class="com.zw.factory.UserDaoFactoryBean" id="userDao2"/>-->
+
+    <!--    自动注入-->
+    <bean id="userService" class="com.zw.service.impl.UserServiceImpl" autowire="byType"/>
+</beans>

@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="842086ec-9655-467a-a5e2-bda7d7e60005" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../javaweb/javaweb1/javaweb/src/main/java/com/zw/javaweb/DBTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../javaweb/javaweb1/javaweb/src/main/java/com/zw/javaweb/Listener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot2/springboot2/src/main/java/com/zw/MyInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot2/springboot2/src/main/java/com/zw/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot2/springboot2/src/main/java/com/zw/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springmvc/src/main/java/com/zw/SomeType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springmvc/src/main/java/com/zw/SomeType1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springmvc/src/main/java/com/zw/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springmvc/src/main/java/com/zw/TestInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springmvc/src/main/java/com/zw/config/ServletContainerInitConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springmvc/src/main/java/com/zw/config/SpringMVCConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springmvc/target/classes/com/zw/TestInit.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springmvc/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springmvc/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springmvc/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springmvc/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springmvc/target/springmvc-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springmvc/target/springmvc-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springmvc/target/springmvc-1.0-SNAPSHOT/META-INF/maven/org.example/springmvc/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springmvc/target/springmvc-1.0-SNAPSHOT/META-INF/maven/org.example/springmvc/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springmvc/target/springmvc-1.0-SNAPSHOT/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springmvc/target/springmvc-1.0-SNAPSHOT/com/zw/IOCDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springmvc/target/springmvc-1.0-SNAPSHOT/com/zw/TestInit.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springmvc/target/springmvc-1.0-SNAPSHOT/com/zw/dao/BookDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springmvc/target/springmvc-1.0-SNAPSHOT/com/zw/dao/OrderDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springmvc/target/springmvc-1.0-SNAPSHOT/com/zw/dao/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springmvc/target/springmvc-1.0-SNAPSHOT/com/zw/dao/impl/BookDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springmvc/target/springmvc-1.0-SNAPSHOT/com/zw/dao/impl/OrderDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springmvc/target/springmvc-1.0-SNAPSHOT/com/zw/dao/impl/UserDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springmvc/target/springmvc-1.0-SNAPSHOT/com/zw/factory/OrderDaoFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springmvc/target/springmvc-1.0-SNAPSHOT/com/zw/factory/UserDaoFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springmvc/target/springmvc-1.0-SNAPSHOT/com/zw/factory/UserDaoFactoryBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springmvc/target/springmvc-1.0-SNAPSHOT/com/zw/service/BookService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springmvc/target/springmvc-1.0-SNAPSHOT/com/zw/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springmvc/target/springmvc-1.0-SNAPSHOT/com/zw/service/impl/BookServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springmvc/target/springmvc-1.0-SNAPSHOT/com/zw/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zw/bean/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zw/config/ServletContainerInitConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zw/config/SpringMvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zw/config/SpringMvcSuport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zw/controller/ProjectExceptionAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zw/controller/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zw/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zw/controller/interceptor/ProjectInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springmvc5/springmvc5/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springmvc5/springmvc5/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springmvc5/springmvc5/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springmvc5/springmvc5/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springmvc5/springmvc5/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springmvc5/springmvc5/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springmvc5/springmvc5/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springmvc5/springmvc5/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springmvc5/springmvc5/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springmvc5/springmvc5/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springmvc5/springmvc5/src/main/java/com/zw/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springmvc5/springmvc5/src/main/java/config/ServletContainerInitConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springmvc5/springmvc5/src/main/java/config/SpringMvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springmvc5/springmvc5/src/main/resources/META-INF/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springmvc6/springmvc6/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springmvc6/springmvc6/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springmvc6/springmvc6/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springmvc6/springmvc6/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springmvc6/springmvc6/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springmvc6/springmvc6/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springmvc6/springmvc6/src/main/java/com/zw/springmvc6/HelloApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springmvc6/springmvc6/src/main/java/com/zw/springmvc6/HelloResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springmvc6/springmvc6/src/main/resources/META-INF/beans.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../javaweb/javaweb1/javaweb/src/main/java/com/zw/javaweb/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../javaweb/javaweb1/javaweb/src/main/java/com/zw/javaweb/HelloServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springmvc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../springmvc/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springmvc2/springmvc2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../springmvc2/springmvc2/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2KAC57FlLng7Ivc7SMj8UpIacAs" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/code/backend/spring/springmvc4/springmvc4",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
+    "spring.configuration.checksum": "e4babe834f8143b1a72de600d5bf28ec",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Maven.springmvc4 [tomcat7:run]">
+    <configuration name="generated-requests | #12" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="12" requestIdentifier="#12" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #13" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="13" requestIdentifier="#13" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #14" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="14" requestIdentifier="#14" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #16" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="16" requestIdentifier="#16" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #19" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="19" requestIdentifier="#19" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="springmvc4 [tomcat7:run]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="Tomcat 8.5.84" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.84" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <file path="$PROJECT_DIR$">
+          <settings>
+            <option name="CONTEXT_PATH" value="/springmvc4" />
+          </settings>
+        </file>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="96bc32d3-4af9-408a-afa7-d67d50b4eb8c" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="53317" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="HTTP Request.generated-requests | #19" />
+      <item itemvalue="HTTP Request.generated-requests | #13" />
+      <item itemvalue="HTTP Request.generated-requests | #14" />
+      <item itemvalue="HTTP Request.generated-requests | #16" />
+      <item itemvalue="HTTP Request.generated-requests | #12" />
+      <item itemvalue="Maven.springmvc4 [tomcat7:run]" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5.84" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.generated-requests | #19" />
+        <item itemvalue="HTTP Request.generated-requests | #16" />
+        <item itemvalue="HTTP Request.generated-requests | #14" />
+        <item itemvalue="HTTP Request.generated-requests | #13" />
+        <item itemvalue="HTTP Request.generated-requests | #12" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="842086ec-9655-467a-a5e2-bda7d7e60005" name="Changes" comment="" />
+      <created>1673407815550</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1673407815550</updated>
+      <workItem from="1673407816765" duration="7020000" />
+      <workItem from="1673415946566" duration="2529000" />
+      <workItem from="1673423457781" duration="13528000" />
+      <workItem from="1673440238927" duration="2003000" />
+      <workItem from="1673446157647" duration="810000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
