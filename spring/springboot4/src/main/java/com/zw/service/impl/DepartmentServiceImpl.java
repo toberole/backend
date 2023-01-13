@@ -12,7 +12,7 @@ public class DepartmentServiceImpl implements DepartmentService {
     private DepartmentDao departmentDao;
 
     @Override
-    public void save(Department department) {
-        departmentDao.save(department);
+    public int save(Department department) {
+       return departmentDao.save(department);
     }
 }
