@@ -1,13 +1,14 @@
-package com.zw.javaweb;
+package com.zw;
 
 import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.servlet.annotation.*;
 
 @WebListener
-public class Listener implements ServletContextListener, HttpSessionListener, HttpSessionAttributeListener {
+public class MyServletContextListener implements ServletContextListener,
+        HttpSessionListener, HttpSessionAttributeListener {
 
-    public Listener() {
+    public MyServletContextListener() {
     }
 
     @Override

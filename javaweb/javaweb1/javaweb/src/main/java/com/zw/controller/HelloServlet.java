@@ -1,4 +1,4 @@
-package com.zw.javaweb;
+package com.zw.controller;
 
 import java.io.*;
 import javax.servlet.ServletConfig;

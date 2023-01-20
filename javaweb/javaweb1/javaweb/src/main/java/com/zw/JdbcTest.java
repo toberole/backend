@@ -1,11 +1,11 @@
-package com.zw.javaweb;
+package com.zw;
 
 import javax.sql.DataSource;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
-public class DBTest {
+public class JdbcTest {
     public void test() {
         DataSource dataSource = null;
         Connection connection = null;
