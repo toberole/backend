@@ -1,2 +1,5 @@
-package com.zw;public class SpringConfig {
+package com.zw;
+
+
+public class SpringConfig {
 }

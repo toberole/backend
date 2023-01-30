@@ -6,6 +6,12 @@ spring:
     password: root
     type: com.alibaba.druid.pool.DruidDataSource
 
+  servlet:
+    multipart:
+      max-file-size: 10
+      max-request-size: 10
+
+
 
 
 

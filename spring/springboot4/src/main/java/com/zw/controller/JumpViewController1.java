@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.ModelAndView;
 
 @RestController
-public class JumpView1 {
+public class JumpViewController1 {
     @RequestMapping("/JumpView1/test1")
     public ModelAndView test1() {
         // ModelAndView 用来设置返回的视图

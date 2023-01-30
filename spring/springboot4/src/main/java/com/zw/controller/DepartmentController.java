@@ -1,12 +1,10 @@
 package com.zw.controller;
 
-import com.zw.dao.DepartmentDao;
 import com.zw.domain.Department;
 import com.zw.service.DepartmentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController

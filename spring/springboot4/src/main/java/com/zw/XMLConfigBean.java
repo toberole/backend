@@ -1,2 +1,5 @@
-package com.zw;public class XMLConfigBean {
+package com.zw;
+
+public class XMLConfigBean {
+
 }

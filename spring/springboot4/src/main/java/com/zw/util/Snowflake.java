@@ -1,5 +1,9 @@
 package com.zw.util;
 
+import java.lang.management.ManagementFactory;
+import java.net.InetAddress;
+import java.net.NetworkInterface;
+
 /**
  * 雪花算法
  */
@@ -33,7 +37,7 @@ public class Snowflake {
     // 数据标识id部分
     private final long datacenterId;
 
-    public IdWorker() {
+    public Snowflake() {
         this.datacenterId = getDatacenterId(maxDatacenterId);
         this.workerId = getMaxWorkerId(datacenterId, maxWorkerId);
     }
@@ -42,7 +46,7 @@ public class Snowflake {
      * @param workerId     工作机器ID
      * @param datacenterId 序列号
      */
-    public IdWorker(long workerId, long datacenterId) {
+    public Snowflake(long workerId, long datacenterId) {
         if (workerId > maxWorkerId || workerId < 0) {
             throw new IllegalArgumentException(String.format("worker Id can't be greater than %d or less than 0", maxWorkerId));
         }

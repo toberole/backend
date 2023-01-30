@@ -12,6 +12,7 @@
     <groupId>com.zw</groupId>
     <artifactId>springboot4</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+
     <name>springboot4</name>
     <description>springboot4</description>
 
@@ -22,6 +23,12 @@
     </properties>
 
     <dependencies>
+        <!-- thymeleaf模板引擎依赖 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-thymeleaf</artifactId>
+        </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
@@ -30,7 +37,7 @@
         <dependency>
             <groupId>org.mybatis.spring.boot</groupId>
             <artifactId>mybatis-spring-boot-starter</artifactId>
-            <version>3.0.0</version>
+            <version>3.0.1</version>
         </dependency>
 
         <dependency>
@@ -39,24 +46,41 @@
             <scope>runtime</scope>
         </dependency>
 
-        <!--        可以给类自动添加setter和getter-->
+        <!--
+            可以给类自动添加setter和getter
+        -->
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <optional>true</optional>
         </dependency>
 
-        <!--        数据库连接池-->
+        <!--
+            数据库连接池
+        -->
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>druid</artifactId>
             <version>1.2.15</version>
         </dependency>
 
+        <!--        <dependency>-->
+        <!--            <groupId>io.shardingjdbc</groupId>-->
+        <!--            <artifactId>sharding-jdbc-core</artifactId>-->
+        <!--            <version>2.0.3</version>-->
+        <!--        </dependency>-->
+
+
+<!--        &lt;!&ndash; 添加 jsp 依赖&ndash;&gt;-->
 <!--        <dependency>-->
-<!--            <groupId>io.shardingjdbc</groupId>-->
-<!--            <artifactId>sharding-jdbc-core</artifactId>-->
-<!--            <version>2.0.3</version>-->
+<!--            <groupId>org.apache.tomcat.embed</groupId>-->
+<!--            <artifactId>tomcat-embed-jasper</artifactId>-->
+<!--            <scope>provided</scope>-->
+<!--        </dependency>-->
+<!--        &lt;!&ndash; 添加 JSTL 支持 &ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>javax.servlet</groupId>-->
+<!--            <artifactId>jstl</artifactId>-->
 <!--        </dependency>-->
 
         <dependency>
@@ -74,7 +98,7 @@
                 <configuration>
                     <excludes>
                         <exclude>
-                            <groupId>org.projectlombok</groupId>
+                            <groupId>org.project-lombok</groupId>
                             <artifactId>lombok</artifactId>
                         </exclude>
                     </excludes>
